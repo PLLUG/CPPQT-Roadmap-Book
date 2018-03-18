@@ -10,4 +10,5 @@
     * [Починаємо програмувати](book/most-important/first-program/pochinamo-programuvati.md)
   * [Базова робота з Git та створення власного репозиторію](book/most-important/git-essentials/README.md)
     * [Робота з Git та командним рядком](book/most-important/git-essentials/robota-z-git-ta-komandnim-ryadkom.md)
+    * [Створюємо репозиторій та заливаємо на GitHub](book/most-important/git-essentials/stvoryumo-repozitori-ta-zalivamo-na-github.md)
 
