@@ -15,5 +15,5 @@
     * [Cheatsheet: Простий алгоритм для роботи з системою контролю версій \(одна гілка, один розробник\)](book/most-important/git-essentials/cheatsheet-prostii-algoritm-dlya-roboti-z-sistemoyu-kontrolyu-versi-odna-glka-odin-rozrobnik.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
-* [Missions](book/missions.md)
+* [Missions](book/missions/README.md)
 
