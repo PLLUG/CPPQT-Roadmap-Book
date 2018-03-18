@@ -79,3 +79,19 @@ Total 5 (delta 0), reused 0 (delta 0)
 To https://github.com/user/test-project.git
    fef3301..275127f  master -> master
 ```
+
+> **Для викладача: Візуальне демо для розуміння того що відбулося**
+> [https://learngitbranching.js.org/?NODEMO](https://learngitbranching.js.org/?NODEMO)
+> Сценарій демо:
+> ```reset
+> git clone
+> git commit
+> git commit
+> git push
+> git commit
+> git commit
+> git fakeTeamwork
+> git fakeTeamwork
+> git push
+> git pull
+> git push```
