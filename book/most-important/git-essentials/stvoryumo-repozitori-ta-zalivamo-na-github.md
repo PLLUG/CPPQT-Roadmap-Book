@@ -20,6 +20,42 @@
 7. Виконайте команду git clone адреса репозиторію.
 8. Перейдіть у теку репозиторія. Тепер можна розпочинати роботу.
 
+```sh
+% pwd
+/home/user
+
+% mkdir projects
+
+% cd projects
+
+% pwd
+/home/user/projects
+
+% git clone https://github.com/user/test-project.git
+Cloning into 'test-project'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+% ls
+test-project
+
+% cd test-project 
+
+% ls
+README.md
+```
+У наведеному вище прикладі ми:
+* Вивели поточну директорію
+* Створили у поточній директорії нову теку з назвою projects
+* Перейшли у теку projects
+* Вивели поточну директорію ще раз для перевірки де ми знаходимось
+* Клонували наш репозиторій Git
+* Переглянули список директорій, щоб побачити, як називається директорія нашого Git  репозиторію
+* Перейшли в теку репозиторію 
+* Вивели список файлів у теці репозиторію
+
 ## Сценарій 2: створюємо репозиторій локально та зв'язуємо з віддаленим на GitHub
 
 ## Створюємо програму, "комітимо"(_commit_) зміни
