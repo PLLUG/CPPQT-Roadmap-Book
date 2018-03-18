@@ -10,5 +10,10 @@
     * [Починаємо програмувати](book/most-important/first-program/pochinamo-programuvati.md)
   * [Базова робота з Git та створення власного репозиторію](book/most-important/git-essentials/README.md)
     * [Робота з Git та командним рядком](book/most-important/git-essentials/robota-z-git-ta-komandnim-ryadkom.md)
+    * [Cheatsheet: Робота з командним рядком](book/most-important/git-essentials/cheatsheet-robota-z-komandnim-ryadkom.md)
     * [Створюємо репозиторій та заливаємо на GitHub](book/most-important/git-essentials/stvoryumo-repozitori-ta-zalivamo-na-github.md)
+    * [Cheatsheet: Простий алгоритм для роботи з системою контролю версій \(одна гілка, один розробник\)](book/most-important/git-essentials/cheatsheet-prostii-algoritm-dlya-roboti-z-sistemoyu-kontrolyu-versi-odna-glka-odin-rozrobnik.md)
+* [Cheatsheets](cheatsheets.md)
+* [Demos](demos.md)
+* [Missions](missions.md)
 
