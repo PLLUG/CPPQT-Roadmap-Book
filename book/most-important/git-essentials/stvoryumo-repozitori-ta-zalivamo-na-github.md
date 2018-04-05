@@ -21,27 +21,27 @@
 8. Перейдіть у теку репозиторія. Тепер можна розпочинати роботу.
 
 ```sh
-% pwd
+~ pwd
 /home/user
 
-% mkdir projects
+~ mkdir projects
 
-% cd projects
+~ cd projects
 
-% pwd
+~ pwd
 /home/user/projects
 
-% git clone https://github.com/user/test-project.git
+~ git clone https://github.com/user/test-project.git
 Cloning into 'test-project'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 Checking connectivity... done.
 
-% ls
+~ ls
 test-project
 
-% cd test-project 
+~ cd test-project 
 
 % ls
 README.md
@@ -63,7 +63,7 @@ README.md
 Тепер відкриємо консоль та перевіримо статус репозиторію за допомогою команди ```git status```:
 
 ```sh
-% git status
+~ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Untracked files:
@@ -78,8 +78,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 Ми бачимо, що ми маємо кілька файлів, які не є під контролем Git (*Untracked files*).  Додамо ці файли до наступного коміту з допомогою команди ```git add```:
 
 ```sh
-% git add main.cpp test-project.pro 
-% git status
+~ git add main.cpp test-project.pro 
+~ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
@@ -94,7 +94,7 @@ Changes to be committed:
 Тепер ми зробити коміт з допомогою команди  ```git commit -m “коментар”```.
 
 ```sh
-% git commit -m "Added project files."
+~ git commit -m "Added project files."
 [master 275127f] Added project files.
  3 files changed, 90 insertions(+)
  create mode 100644 main.cpp
@@ -104,7 +104,7 @@ Changes to be committed:
 Для того, щоб завантажити (“залити”) зміни на GitHub (на віддалений репозиторій), виконаємо команду ```git push```. Під час виконання цієї команди вам необхідно буде ввести свій логін та пароль до GitHub.
 
 ```sh
-% git push
+~ git push
 Username for 'https://github.com': user
 Password for 'https://user@github.com': 
 Counting objects: 5, done.
