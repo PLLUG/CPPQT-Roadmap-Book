@@ -6,44 +6,45 @@
 
 1. Залогінтеся, та зайдіть на головну сторінку GitHub.
 2. Натисніть на конпку створення нового репозиторію. 
-![](https://media.githubusercontent.com/media/PLLUG/CPPQT-Roadmap/master/storage/book/development_basics/working_with_git/github-new-repo.png)
+![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/3.png)
 3. Оберіть ім’я для репозиторію (*Repository name*).
-![](https://media.githubusercontent.com/media/PLLUG/CPPQT-Roadmap/master/storage/book/development_basics/working_with_git/github-new-repo2.png)
+![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/4.png)
+4. При створенні нового репозиторію оберіть *“Initialize this repository with a README”*. Це ініціалізує репозиторій та дасть змогу одразу ж клонувати його.
+
 
 
 ## Сценарій 1: створюємо репозиторій на GitHub та клонуємо його
 
-4. При створенні нового репозиторію оберіть *“Initialize this repository with a README”*. Це ініціалізує репозиторій та дасть змогу одразу ж клонувати його.
 5. Скопіюйте адресу вашого нового репозаторію (наприклад: ```https://github.com/user/test-project.git```).             
-![](https://media.githubusercontent.com/media/PLLUG/CPPQT-Roadmap/master/storage/book/development_basics/working_with_git/github-clone-repo.png)
+![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/5.png)
 6. Відкрийте консоль. Перейдіть у директорію де буде знаходитись ваш проект.
 7. Виконайте команду git clone адреса репозиторію.
 8. Перейдіть у теку репозиторія. Тепер можна розпочинати роботу.
 
 ```sh
-% pwd
+~ pwd
 /home/user
 
-% mkdir projects
+~ mkdir projects
 
-% cd projects
+~ cd projects
 
-% pwd
+~ pwd
 /home/user/projects
 
-% git clone https://github.com/user/test-project.git
+~ git clone https://github.com/user/test-project.git
 Cloning into 'test-project'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 Checking connectivity... done.
 
-% ls
+~ ls
 test-project
 
-% cd test-project 
+~ cd test-project 
 
-% ls
+~ ls
 README.md
 ```
 У наведеному вище прикладі ми:
@@ -58,19 +59,74 @@ README.md
 
 ## Сценарій 2: створюємо репозиторій локально та зв'язуємо з віддаленим на GitHub
 
+```sh
+~ pwd
+/home/user
+
+~ mkdir projects
+
+~ cd projects
+
+~ pwd
+/home/user/projects
+
+~ git init
+Initialized empty Git repository in C:/MSYS2_Cmder/vendor/msys64/home/test/test-project/.git/
+
+~ touch README.md
+
+~ git add README.md
+
+~ git commit -m "Initial commit."
+[master (root-commit) 3637301] Initial commit.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+~ git remote add origin https://github.com/alexchmykhalo/test-project.git
+
+~ git push -u origin master
+Username for 'https://github.com': user
+Password for 'https://user@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 218 bytes | 218.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/alexchmykhalo/test2.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+```
+
+У наведеному вище прикладі ми:
+* Вивели поточну директорію
+* Створили у поточній директорії нову теку з назвою projects
+* Перейшли у теку projects
+* Вивели поточну директорію ще раз для перевірки де ми знаходимось
+* Створили новий репозиторій Git
+* Створили новий файл README.md
+* Додали файл README.md до наступного коміту
+* Закомітили зміни
+* Додали віддалений репозиторій, створений на GitHub (тобто, у той репозиторій ми будемо надсилати зміни)
+* Надіслали зміни у віддалений репозиторій
+
+
 ## Створюємо програму, "комітимо"(_commit_) зміни
+
+Додамо головний файл нашої програми: `main.cpp`.
+
+```sh
+~ touch main.cpp
+```
+Також ми можемо змінити нашу програму (файл `main.cpp`), як завгодно.
 
 Тепер відкриємо консоль та перевіримо статус репозиторію за допомогою команди ```git status```:
 
 ```sh
-% git status
+~ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
         main.cpp
-        test-project.pro
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -78,15 +134,14 @@ nothing added to commit but untracked files present (use "git add" to track)
 Ми бачимо, що ми маємо кілька файлів, які не є під контролем Git (*Untracked files*).  Додамо ці файли до наступного коміту з допомогою команди ```git add```:
 
 ```sh
-% git add main.cpp test-project.pro 
-% git status
+~ git add main.cpp
+~ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
         new file:   main.cpp
-        new file:   test-project.pro
 ```
 
 Тепер ми бачимо, що файли з нашого проекту будуть додані до наступного коміту (*Changes to be committed*). 
@@ -98,7 +153,6 @@ Changes to be committed:
 [master 275127f] Added project files.
  3 files changed, 90 insertions(+)
  create mode 100644 main.cpp
- create mode 100644 test-project.pro
  ```
  
 Для того, щоб завантажити (“залити”) зміни на GitHub (на віддалений репозиторій), виконаємо команду ```git push```. Під час виконання цієї команди вам необхідно буде ввести свій логін та пароль до GitHub.
