@@ -10,7 +10,7 @@
 Після встановлення  відкрийте консоль (Linux та Mac OS). У Windows запустіть консоль виконавши `c:\MSYS2_Cmder\cmder.exe` або з допомогою іконки **GitBash** у головному меню (якщо встановлювали [Git for Windows](https://git-scm.com/downloads) окремо самостійно). Виконайте команду  ```git --version```. Якщо встановлення пройшло успішно — ви побачите вивід з версією  Git.
 
 ```bash
-user@pc ~ % git --version
+~ git --version
 git version 2.16.2
 ```
 
