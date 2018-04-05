@@ -21,7 +21,8 @@ git version 2.16.2
 Після встановлення, нам необхідно вказати власне ім'я та поштову скриньку, які Git буде використовувати в історії версій. Для цього виконайте наступні команди замінивши User Name та user@mail.com на власні ім'я та поштову адресу.
 
  ```bash
- git config --global user
+ git config --global user.name "User Name"
+ git config --global user.email "user@mail.com"
  ``` 
 
 ## Корисні посилання
