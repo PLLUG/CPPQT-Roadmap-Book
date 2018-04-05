@@ -3,14 +3,11 @@
 ## Встановлення
 
 Для встановлення Git:
-  * **на Windows  та  Mac OS X**  достатньо скачати   інсталяційний   пакет   на   офіційному   сайті: [https://git-scm.com/downloads](https://git-scm.com/downloads).   
-  * **для встановлення під Linux** — скористайтеся пакетним менеджером: [https://git-scm.com/download/linux](https://git-scm.com/download/linux).
+  * **Windows** —  завантажте та розпакуйте на диск С: нашу спеціальну суперконсоль **MSYS2_Cmder** ([https://github.com/PLLUG/CPPQT-MSYS2-Cmder/releases/download/1.4/MSYS2_Cmder_1_4.7z](https://github.com/PLLUG/CPPQT-MSYS2-Cmder/releases/download/1.4/MSYS2_Cmder_1_4.7z)) 
+  * **Mac OS X** — достатньо скачати   інсталяційний   пакет   на   офіційному   сайті: [https://git-scm.com/downloads](https://git-scm.com/downloads).   
+  * **Linux** — скористайтеся пакетним менеджером: [https://git-scm.com/download/linux](https://git-scm.com/download/linux).
 
-Під час встановлення (Windows) залиште налаштування за замовчуванням, як показано на малюнку.
-
-![](https://media.githubusercontent.com/media/PLLUG/CPPQT-Roadmap/master/storage/book/development_basics/working_with_git/git-bash-setup.png) ![](https://media.githubusercontent.com/media/PLLUG/CPPQT-Roadmap/master/storage/book/development_basics/working_with_git/git-bash-setup2.png)
-
-Після встановлення  відкрийте консоль (Linux та Mac OS). У Windows запустіть консоль з допомогою іконки **GitBash** (у головному меню). Виконайте команду  ```git --version```. Якщо встановлення пройшло успішно — ви побачите вивід з версією  Git.
+Після встановлення  відкрийте консоль (Linux та Mac OS). У Windows запустіть консоль виконавши `c:\MSYS2_Cmder\cmder.exe` або з допомогою іконки **GitBash** у головному меню (якщо встановлювали [Git for Windows](https://git-scm.com/downloads) окремо самостійно). Виконайте команду  ```git --version```. Якщо встановлення пройшло успішно — ви побачите вивід з версією  Git.
 
 ```bash
 user@pc ~ % git --version
@@ -21,6 +18,11 @@ git version 2.16.2
 
 ## Підготовка до роботи
 
+Після встановлення, нам необхідно вказати власне ім'я та поштову скриньку, які Git буде використовувати в історії версій. Для цього виконайте наступні команди замінивши User Name та user@mail.com на власні ім'я та поштову адресу.
+
+ ```bash
+ git config --global user
+ ``` 
 
 ## Корисні посилання
 * Креш курс роботи з командним рядком  Unix/Linux  [https://www.csoft.net/docs/course.html](https://www.csoft.net/docs/course.html)
