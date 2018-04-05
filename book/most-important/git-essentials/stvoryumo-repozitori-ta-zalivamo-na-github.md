@@ -6,20 +6,18 @@
 
 1. Залогінтеся, та зайдіть на головну сторінку GitHub.
 2. Натисніть на конпку створення нового репозиторію. 
-![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/3.png)
-3. Оберіть ім’я для репозиторію (*Repository name*).
-![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/4.png)
-4. При створенні нового репозиторію оберіть *“Initialize this repository with a README”*. Це ініціалізує репозиторій та дасть змогу одразу ж клонувати його.
-
-
+   ![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/3.png)
+3. Оберіть ім’я для репозиторію \(_Repository name_\).
+   ![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/4.png)
+4. При створенні нового репозиторію оберіть _“Initialize this repository with a README”_. Це ініціалізує репозиторій та дасть змогу одразу ж клонувати його.
 
 ## Сценарій 1: створюємо репозиторій на GitHub та клонуємо його
 
-5. Скопіюйте адресу вашого нового репозаторію (наприклад: ```https://github.com/user/test-project.git```).             
-![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/5.png)
-6. Відкрийте консоль. Перейдіть у директорію де буде знаходитись ваш проект.
-7. Виконайте команду git clone адреса репозиторію.
-8. Перейдіть у теку репозиторія. Тепер можна розпочинати роботу.
+1. Скопіюйте адресу вашого нового репозаторію \(наприклад: `https://github.com/user/test-project.git`\).             
+   ![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/5.png)
+2. Відкрийте консоль. Перейдіть у директорію де буде знаходитись ваш проект.
+3. Виконайте команду git clone адреса репозиторію.
+4. Перейдіть у теку репозиторія. Тепер можна розпочинати роботу.
 
 ```sh
 ~ pwd
@@ -47,7 +45,9 @@ test-project
 ~ ls
 README.md
 ```
+
 У наведеному вище прикладі ми:
+
 * Вивели поточну директорію
 * Створили у поточній директорії нову теку з назвою projects
 * Перейшли у теку projects
@@ -96,6 +96,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
 
 У наведеному вище прикладі ми:
+
 * Вивели поточну директорію
 * Створили у поточній директорії нову теку з назвою projects
 * Перейшли у теку projects
@@ -104,20 +105,20 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 * Створили новий файл README.md
 * Додали файл README.md до наступного коміту
 * Закомітили зміни
-* Додали віддалений репозиторій, створений на GitHub (тобто, у той репозиторій ми будемо надсилати зміни)
+* Додали віддалений репозиторій, створений на GitHub \(тобто, у той репозиторій ми будемо надсилати зміни\)
 * Надіслали зміни у віддалений репозиторій
 
-
-## Створюємо програму, "комітимо"(_commit_) зміни
+## Створюємо програму, "комітимо"\(_commit_\) зміни
 
 Додамо головний файл нашої програми: `main.cpp`.
 
 ```sh
 ~ touch main.cpp
 ```
-Також ми можемо змінити нашу програму (файл `main.cpp`), як завгодно.
 
-Тепер відкриємо консоль та перевіримо статус репозиторію за допомогою команди ```git status```:
+Також ми можемо змінити нашу програму \(файл `main.cpp`\), як завгодно.
+
+Тепер відкриємо консоль та перевіримо статус репозиторію за допомогою команди `git status`:
 
 ```sh
 ~ git status
@@ -131,7 +132,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-Ми бачимо, що ми маємо кілька файлів, які не є під контролем Git (*Untracked files*).  Додамо ці файли до наступного коміту з допомогою команди ```git add```:
+Ми бачимо, що ми маємо кілька файлів, які не є під контролем Git \(_Untracked files_\).  Додамо ці файли до наступного коміту з допомогою команди `git add`:
 
 ```sh
 ~ git add main.cpp
@@ -144,18 +145,18 @@ Changes to be committed:
         new file:   main.cpp
 ```
 
-Тепер ми бачимо, що файли з нашого проекту будуть додані до наступного коміту (*Changes to be committed*). 
+Тепер ми бачимо, що файли з нашого проекту будуть додані до наступного коміту \(_Changes to be committed_\).
 
-Тепер ми зробити коміт з допомогою команди  ```git commit -m “коментар”```.
+Тепер ми зробити коміт з допомогою команди  `git commit -m “коментар”`.
 
 ```sh
 % git commit -m "Added project files."
 [master 275127f] Added project files.
  3 files changed, 90 insertions(+)
  create mode 100644 main.cpp
- ```
- 
-Для того, щоб завантажити (“залити”) зміни на GitHub (на віддалений репозиторій), виконаємо команду ```git push```. Під час виконання цієї команди вам необхідно буде ввести свій логін та пароль до GitHub.
+```
+
+Для того, щоб завантажити \(“залити”\) зміни на GitHub \(на віддалений репозиторій\), виконаємо команду `git push`. Під час виконання цієї команди вам необхідно буде ввести свій логін та пароль до GitHub.
 
 ```sh
 % git push
@@ -170,9 +171,10 @@ To https://github.com/user/test-project.git
    fef3301..275127f  master -> master
 ```
 
-> **Для викладача: Візуальне демо для розуміння того що відбулося**
-> [https://learngitbranching.js.org/?NODEMO](https://learngitbranching.js.org/?NODEMO)
+> **Для викладача: Візуальне демо для розуміння того що відбулося**  
+> [https://learngitbranching.js.org/?NODEMO](https://learngitbranching.js.org/?NODEMO)  
 > Сценарій демо:
+>
 > ```reset
 > git clone
 > git commit
@@ -184,4 +186,8 @@ To https://github.com/user/test-project.git
 > git fakeTeamwork
 > git push
 > git pull
-> git push```
+> git push
+> ```
+
+
+
