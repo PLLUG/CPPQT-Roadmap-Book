@@ -13,6 +13,7 @@
     * [Cheatsheet: Робота з командним рядком](book/most-important/git-essentials/cheatsheet-robota-z-komandnim-ryadkom.md)
     * [Створюємо репозиторій та заливаємо на GitHub](book/most-important/git-essentials/stvoryumo-repozitori-ta-zalivamo-na-github.md)
     * [Cheatsheet: Простий алгоритм для роботи з системою контролю версій \(одна гілка, один розробник\)](book/most-important/git-essentials/cheatsheet-prostii-algoritm-dlya-roboti-z-sistemoyu-kontrolyu-versi-odna-glka-odin-rozrobnik.md)
+    * [Працюємо з Git правильно](book/most-important/git-essentials/pratsyumo-z-git-pravilno.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
