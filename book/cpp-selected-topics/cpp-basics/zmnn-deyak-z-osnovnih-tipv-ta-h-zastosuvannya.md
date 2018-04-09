@@ -54,7 +54,23 @@ std::cout << "    number of benches: " << numberOfBenchesOnBackyard << std::endl
 
 ### Тип bool
 
-Цей тип зберігає результат деякого твердження (істинність чи хибність).
+Цей тип зберігає результат деякого твердження (істинність чи хибність). Наприклад:
+```cpp
+#include <iostream>
+
+int main()
+{
+    std::cout << std::boolalpha; // Необхідно, щоб значення bool виводилися словами.
+    bool isThreeIsGreaterThanFive{3 > 5};
+    std::cout << "Is 3 > 5 : " << isThreeIsGreaterThanFive << std::endl;
+    bool isThreeIsLessThanFive{3 < 5};
+    std::cout << "Is 3 < 5 : " << isThreeIsLessThanFive << std::endl;
+    bool isThreeEqualFive{3 == 5};
+    std::cout << "Is 3 = 5 : " << isThreeEqualFive << std::endl;
+    bool isThreeEqualThree{3 == 3};
+    std::cout << "Is 3 = 3 : " << isThreeEqualThree << std::endl;
+}
+```
 
 ### Тип char
 
