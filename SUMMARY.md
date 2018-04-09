@@ -16,6 +16,7 @@
     * [Працюємо з Git правильно](book/most-important/git-essentials/pratsyumo-z-git-pravilno.md)
 * [Мова С++ - швидкий вступ та обрані теми](book/cpp-selected-topics/README.md)
   * [Вступ до С++](book/cpp-selected-topics/cpp-basics/README.md)
+    * [Змінні. Деякі з основних типів та їх застосування.](book/cpp-selected-topics/cpp-basics/zmnn-deyak-z-osnovnih-tipv-ta-h-zastosuvannya.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
