@@ -69,8 +69,11 @@ int main()
     std::cout << "Is 3 = 5 : " << isThreeEqualFive << std::endl;
     bool isThreeEqualThree{3 == 3};
     std::cout << "Is 3 = 3 : " << isThreeEqualThree << std::endl;
+    bool isThreeNotEqualFive{3 != 5};
+    std::cout << "Is 3 != 5 : " << isThreeNotEqualFive << std::endl;
 }
 ```
+Як ми бачимо, результатом порівняння (оператори `>`,`>=`,`<`,`<=`,`==`,`!=`)
 
 ### Тип char
 
