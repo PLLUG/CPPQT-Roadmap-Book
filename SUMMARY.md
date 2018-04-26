@@ -18,7 +18,10 @@
   * [Вступ до С++](book/cpp-selected-topics/cpp-basics/README.md)
     * [Змінні. Деякі з основних типів та їх застосування.](book/cpp-selected-topics/cpp-basics/zmnn-deyak-z-osnovnih-tipv-ta-h-zastosuvannya.md)
     * [Про змінні вирази та керуючі конструкції](book/cpp-selected-topics/cpp-basics/pro-zmnn-virazi-ta-keruyuch-konstrukts.md)
+  * [Вказівники та пам'ять](book/cpp-selected-topics/memory-management/README.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
+
+
 
