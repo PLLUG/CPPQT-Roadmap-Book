@@ -27,6 +27,8 @@
     * [Адреса](book/cpp-selected-topics/memory-management/adresa.md)
     * [Вказівники](book/cpp-selected-topics/memory-management/vkazvniki.md)
     * [Час зберігання об'єкту](book/cpp-selected-topics/memory-management/chas-zbergannya-obktu.md)
+* [Знайомство з Qt5](book/intro-to-qt5/README.md)
+  * [Огляд Qt5](book/intro-to-qt5/meet-qt/README.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
