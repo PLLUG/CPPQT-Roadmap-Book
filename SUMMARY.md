@@ -38,6 +38,8 @@
     * [Віджети \(Widgets\)](book/intro-to-qt5/qt5-widgets/vdzheti-widgets.md)
     * [Компонування \(Layouts\)](book/intro-to-qt5/qt5-widgets/komponuvannya-layouts.md)
     * [Сигнально-слотові з'єднання](book/intro-to-qt5/qt5-widgets/signalno-slotov-zdnannya.md)
+    * [Створення сигналів \(signals\) та слотів \(slots\)](book/intro-to-qt5/qt5-widgets/stvorennya-signalv-signals-ta-slotv-slots.md)
+    * [Підсумок: сигнально-слотові з'єднання](book/intro-to-qt5/qt5-widgets/pdsumok-signalno-slotov-zdnannya.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
