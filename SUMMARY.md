@@ -31,6 +31,7 @@
   * [Огляд Qt5](book/intro-to-qt5/meet-qt/README.md)
     * [Ласкаво просимо у світ Qt](book/intro-to-qt5/meet-qt/laskavo-prosimo-u-svt-qt.md)
     * [Огляд можливостей Qt 5](book/intro-to-qt5/meet-qt/oglyad-mozhlivostei-qt-5.md)
+    * [Ліцензування Qt](book/intro-to-qt5/meet-qt/ltsenzuvannya-qt.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
