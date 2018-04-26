@@ -35,6 +35,7 @@
     * [Короткий огляд історії Qt](book/intro-to-qt5/meet-qt/korotkii-oglyad-stor-qt.md)
     * [“Екосистема” Qt](book/intro-to-qt5/meet-qt/ekosistema-qt.md)
   * [Створення графічного інтерфейсу засобами Qt](book/intro-to-qt5/qt5-widgets/README.md)
+    * [Віджети \(Widgets\)](book/intro-to-qt5/qt5-widgets/vdzheti-widgets.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
