@@ -36,6 +36,7 @@
     * [“Екосистема” Qt](book/intro-to-qt5/meet-qt/ekosistema-qt.md)
   * [Створення графічного інтерфейсу засобами Qt](book/intro-to-qt5/qt5-widgets/README.md)
     * [Віджети \(Widgets\)](book/intro-to-qt5/qt5-widgets/vdzheti-widgets.md)
+    * [Компонування \(Layouts\)](book/intro-to-qt5/qt5-widgets/komponuvannya-layouts.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
