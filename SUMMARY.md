@@ -29,6 +29,7 @@
     * [Час зберігання об'єкту](book/cpp-selected-topics/memory-management/chas-zbergannya-obktu.md)
 * [Знайомство з Qt5](book/intro-to-qt5/README.md)
   * [Огляд Qt5](book/intro-to-qt5/meet-qt/README.md)
+    * [Ласкаво просимо у світ Qt](book/intro-to-qt5/meet-qt/laskavo-prosimo-u-svt-qt.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
