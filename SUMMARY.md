@@ -40,6 +40,7 @@
     * [Сигнально-слотові з'єднання](book/intro-to-qt5/qt5-widgets/signalno-slotov-zdnannya.md)
     * [Створення сигналів \(signals\) та слотів \(slots\)](book/intro-to-qt5/qt5-widgets/stvorennya-signalv-signals-ta-slotv-slots.md)
     * [Підсумок: сигнально-слотові з'єднання](book/intro-to-qt5/qt5-widgets/pdsumok-signalno-slotov-zdnannya.md)
+    * [Коротко про елементи графічного інтерфейсу та їх використання](book/intro-to-qt5/qt5-widgets/korotko-pro-elementi-grafchnogo-nterfeisu-ta-h-vikoristannya.md)
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
