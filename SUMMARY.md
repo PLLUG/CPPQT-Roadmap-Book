@@ -44,4 +44,7 @@
 * [Cheatsheets](book/cheatsheets.md)
 * [Demos](book/demos.md)
 * [Missions](book/missions/README.md)
+  * [Mission 1: Досліджуємо Git та командний рядок](book/missions/mission-1-dosldzhumo-git-ta-komandnii-ryadok.md)
+  * [Mission 2: Консольна гра](book/missions/mission-2-konsolna-gra.md)
+  * [Mission 3: Створимо абстрактний тип даних](book/missions/mission-3-stvorimo-abstraktnii-tip-danih.md)
 
