@@ -7,13 +7,13 @@
 1. Залогінтеся, та зайдіть на головну сторінку GitHub.
 2. Натисніть на конпку створення нового репозиторію. 
 
-   ![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/3.png)
 
-3. Оберіть ім’я для репозиторію \(_Repository name_\).
 
-   ![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/4.png)
+   3. Оберіть ім’я для репозиторію \(_Repository name_\).
 
-4. При створенні нового репозиторію оберіть _“Initialize this repository with a README”_. Це ініціалізує репозиторій та дасть змогу одразу ж клонувати його.
+![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/4.png)
+
+   4.При створенні нового репозиторію оберіть _“Initialize this repository with a README”_. Це ініціалізує репозиторій та дасть змогу одразу ж клонувати його.
 
 ## Сценарій 1: створюємо репозиторій на GitHub та клонуємо його
 
@@ -21,9 +21,13 @@
 
    ![](https://raw.githubusercontent.com/PLLUG/c-qt-lecture-s-materials/basic-book-structure/5.png)
 
-2. Відкрийте консоль. Перейдіть у директорію де буде знаходитись ваш проект.
-3. Виконайте команду git clone адреса репозиторію.
-4. Перейдіть у теку репозиторія. Тепер можна розпочинати роботу.
+
+
+   2. Відкрийте консоль. Перейдіть у директорію де буде знаходитись ваш проект.
+
+   3. Виконайте команду git clone адреса репозиторію.
+
+   4. Перейдіть у теку репозиторія. Тепер можна розпочинати роботу.
 
 ```bash
 ~ pwd
