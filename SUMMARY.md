@@ -28,6 +28,7 @@
   * [Вказівники та пам'ять](mova-s++-shvidkii-vstup-ta-obrani-temi/vkazivniki-ta-pamyat/README.md)
     * [Адреса](mova-s++-shvidkii-vstup-ta-obrani-temi/vkazivniki-ta-pamyat/adresa.md)
     * [Вказівники](mova-s++-shvidkii-vstup-ta-obrani-temi/vkazivniki-ta-pamyat/vkazivniki.md)
+    * [Вказівники: примітивна демонстрація програми у пам'яті](mova-s++-shvidkii-vstup-ta-obrani-temi/vkazivniki-ta-pamyat/vkazivniki-primitivna-demonstraciya-programi-u-pamyati.md)
     * [Час зберігання об'єкту](mova-s++-shvidkii-vstup-ta-obrani-temi/vkazivniki-ta-pamyat/chas-zberigannya-obyektu.md)
 * [Знайомство з Qt5](znaiomstvo-z-qt5/README.md)
   * [Огляд Qt5](znaiomstvo-z-qt5/oglyad-qt5/README.md)

@@ -1,0 +1,79 @@
+digraph G {
+// https://dreampuf.github.io/GraphvizOnline/
+    rankdir=LR;
+
+    subgraph cluster_0 {
+        style=filled;
+        color=white;
+        mem00 [shape=box;label="???";xlabel="0x00"];
+        mem01 [shape=box;label="???";xlabel="0x01"];
+        mem02 [shape=box;label="???";xlabel="0x02"];
+        mem03 [shape=box;label="???";xlabel="0x03"];
+        mem04 [shape=box;label="???";xlabel="0x04"];
+        mem05 [shape=box;label="???";xlabel="0x05"];
+        mem06 [shape=box;label="???";xlabel="0x06"];
+        mem07 [shape=box;label="???";xlabel="0x07"];
+    }
+
+    subgraph cluster_1 {
+        style=filled;
+        color=lightblue1;
+        mem08 [shape=box;label="???";xlabel="0x08"];
+        mem09 [shape=box;label="???";xlabel="0x09"];
+        mem0A [shape=box;label="???";xlabel="0x0A"];
+        mem0B [shape=box;label="???";xlabel="0x0B"];
+        mem0C [shape=box;label="???";xlabel="0x0C"];
+        mem0D [shape=box;label="???";xlabel="0x0D"];
+        mem0E [shape=box;label="???";xlabel="0x0E"];
+        mem0F [shape=box;label="???";xlabel="0x0F"];
+    }
+
+    subgraph cluster_2 {
+        style=filled;
+        color=lightblue1;
+        mem10 [shape=box;label="???";xlabel="0x10"];
+        mem11 [shape=box;label="???";xlabel="0x11"];
+        mem12 [shape=box;label="'b'";xlabel="0x12";color=red];
+        mem13 [shape=box;label="???";xlabel="0x13"];
+        mem14 [shape=box;label="???";xlabel="0x14"];
+        mem15 [shape=box;label="0x12";xlabel="0x15";color=blue];
+        mem16 [shape=box;label="???";xlabel="0x16"];
+        mem17 [shape=box;label="???";xlabel="0x17"];
+    }
+
+    subgraph cluster_3 {
+        style=filled;
+        color=lightblue1;
+        mem18 [shape=box;label="'c'";xlabel="0x18";color=orange];
+        mem19 [shape=box;label="???";xlabel="0x19"];
+        mem1A [shape=box;label="???";xlabel="0x1A"];
+        mem1B [shape=box;label="???";xlabel="0x1B"];
+        mem1C [shape=box;label="???";xlabel="0x1C"];
+        mem1D [shape=box;label="???";xlabel="0x1D"];
+        mem1E [shape=box;label="???";xlabel="0x1E"];
+        mem1F [shape=box;label="0x15";xlabel="0x1F";color=purple];
+    }
+
+
+    mem00 -> mem08[style=invis];
+    mem08 -> mem10[style=invis];
+    mem10 -> mem18[style=invis];
+    mem1A -> program[style=invis];
+
+    mem15 -> mem18 [constraint=false];
+    mem1F -> mem15 [constraint=false];
+
+    program [shape=plaintext,label="
+int main()
+{
+    char ch = 'a';
+    char *ptr1 = &ch;
+    *ptr = 'b';
+
+    char ch2 = 'c';
+    ptr = &ch2;
+
+    char **ptrToPtr = &ptr;
+}
+"];
+}
