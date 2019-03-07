@@ -2,7 +2,11 @@
 
 ## Встановлення
 
-Для встановлення - завантажте та розпакуйте на диск С: нашу спеціальну суперконсоль **MSYS2\_Cmder** \([https://github.com/PLLUG/CPPQT-MSYS2-Cmder/releases/download/1.4/MSYS2\_Cmder\_1\_4.7z](https://github.com/PLLUG/CPPQT-MSYS2-Cmder/releases/download/1.4/MSYS2_Cmder_1_4.7z)\) 
+Для встановлення - завантажте та розпакуйте на диск С: нашу спеціальну суперконсоль **MSYS2\_Cmder** \([https://github.com/PLLUG/CPPQT-MSYS2-Cmder/releases/download/1.4/MSYS2\_Cmder\_1\_4.7z](https://github.com/PLLUG/CPPQT-MSYS2-Cmder/releases/download/1.4/MSYS2_Cmder_1_4.7z)\). 
+
+Після встановлення запустіть консоль виконавши `c:\MSYS2_Cmder\cmder.exe`Повідомлення про помилку одразу ж після старту - ігноруємо, так само відмовляємося від  запропонованого оновлення \(повідомлення про оновлення може з'явитися у консолі після запуску\).
+
+Для встановлення необхіlних для розробки програм виконуємо команду: `install-dev-env`
 
 ## Корисні посилання
 
