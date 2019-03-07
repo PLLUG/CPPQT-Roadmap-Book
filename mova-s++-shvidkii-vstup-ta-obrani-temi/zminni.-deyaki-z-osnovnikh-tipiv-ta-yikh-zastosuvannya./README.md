@@ -44,25 +44,3 @@ std::cout << "    number of benches: " << numberOfBenchesOnBackyard << std::endl
 | `std::vector<тип>` | Список елементів заданого типу. Тип задають всередині гострих дужок. Список може змінювати розмір, елементи можна додавати та видаляти зі списку. | `std::vector<std::string> friendList = {"Harry", "Ron", "Hermiona"};` | `#include <vector>` |
 | `std::array<тип, розмір>` | Масив\(список фіксованого розміру\). Розмір масиву змінювати не можна. | `std::array<bool, 3> semaphorLightPowered = {false, false, true};` | `#include <array>` |
 
-
-
-### Тип std::string
-
-Для збереження текстових рядків можна використати тип `std::string`. Наприклад:
-
-```cpp
-std::string theMainQuestion{"To be or not to be?"};
-```
-
-Як ми бачимо, текстові рядки у С++ пишуться у **подвійних лапках**.
-
-Не забуваймо, що для того щоб використовувати цей тип нам необхідно підключити бібілотеку `string`:
-
-```cpp
-#include <string>
-```
-
-### Тип std::vector
-
-### Тип std::array
-
