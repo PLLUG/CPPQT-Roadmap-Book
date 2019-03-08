@@ -4,7 +4,7 @@
 
 Для встановлення Git:
 
-* **Windows** —  завантажте та розпакуйте на диск С: нашу спеціальну суперконсоль **MSYS2\_Cmder** \([https://github.com/PLLUG/CPPQT-MSYS2-Cmder/releases/download/1.4/MSYS2\_Cmder\_1\_4.7z](https://github.com/PLLUG/CPPQT-MSYS2-Cmder/releases/download/1.4/MSYS2_Cmder_1_4.7z)\) 
+* **Windows** —  завантажте та розпакуйте на диск С: нашу спеціальну суперконсоль **MSYS2\_Cmder** \(читайте про встановлення[ у відповідному розділі](../pidgotovka-do-roboti.-komandnii-ryadok./robota-z-git-ta-komandnim-ryadkom.md#vstanovlennya)\) 
 * **Mac OS X** — достатньо скачати   інсталяційний   пакет   на   офіційному   сайті: [https://git-scm.com/downloads](https://git-scm.com/downloads).   
 * **Linux** — скористайтеся пакетним менеджером: [https://git-scm.com/download/linux](https://git-scm.com/download/linux).
 
@@ -26,8 +26,10 @@ git version 2.16.2
  git config --global user.email "user@mail.com"
 ```
 
-## Корисні посилання
+{% hint style="info" %}
+**Корисні посилання**
 
 * Git Magic \(укр. переклад\) \(перші 3 розділи рекомендовані до ознайомлення\) [http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/uk/](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/uk/)
 * Visual Guide to Version Control [http://betterexplained.com/articles/a-visual-guide-to-version-control/](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
+{% endhint %}
 

@@ -111,7 +111,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 * Вивели поточну директорію ще раз для перевірки де ми знаходимось
 * Створили новий репозиторій Git
 * Створили новий файл `README.md`
-* Додали файл README.md до наступного коміту
+* Додали файл `README.md` до наступного коміту
 * Закомітили зміни
 * Додали віддалений репозиторій, створений на GitHub \(тобто, у той репозиторій ми будемо надсилати зміни\)
 * Надіслали зміни у віддалений репозиторій
@@ -179,11 +179,14 @@ To https://github.com/user/test-project.git
    fef3301..275127f  master -> master
 ```
 
-> **Для викладача: Візуальне демо для розуміння того що відбулося**  
-> [https://learngitbranching.js.org/?NODEMO](https://learngitbranching.js.org/?NODEMO)  
-> Сценарій демо:
->
-> ```text
+{% hint style="success" %}
+Для викладача: візуальне демо, як працює Git під час розробки проекту
+
+Демо візуальзіція: [https://learngitbranching.js.org/?NODEMO](https://learngitbranching.js.org/?NODEMO)
+
+Сценарій демо:
+
+> ```bash
 > git clone
 > git commit
 > git commit
@@ -196,4 +199,5 @@ To https://github.com/user/test-project.git
 > git pull
 > git push
 > ```
+{% endhint %}
 
